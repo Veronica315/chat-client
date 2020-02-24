@@ -16,7 +16,7 @@ public class Main {
         Scanner scanner= new Scanner (System.in);
         String nr1=scanner.nextLine();
         String nr2=scanner.nextLine();
-        writer.write("cat face"+ nr1+"plus"+ nr2 +"\n");
+        writer.write("catface "+ nr1+"plus"+ nr2 +"\n");
         writer.flush();
         System.out.println(reader.readLine());
         writer.close();
